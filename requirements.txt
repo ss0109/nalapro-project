@@ -1,0 +1,25 @@
+# Core
+numpy
+scipy
+scikit-learn
+matplotlib
+
+# Classical NLP (Task 1)
+gensim
+nltk
+
+# Transformers / LLMs (Tasks 2-5).
+# bitsandbytes + a CUDA GPU are required for 4-bit quantization
+# (the Task 4 fallback model and the QLoRA bonus).
+torch
+transformers
+accelerate
+bitsandbytes
+peft
+huggingface_hub
+
+# Experiment tracking
+wandb
+
+# Optional: load secrets from a local .env file
+python-dotenv

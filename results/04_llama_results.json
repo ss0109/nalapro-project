@@ -1,0 +1,17 @@
+{
+  "model": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+  "zero_shot": {
+    "acc": 0.62,
+    "f1": 0.6373242117359765
+  },
+  "few_shot": {
+    "acc": 0.44,
+    "f1": 0.4283061546296839
+  },
+  "bert_on_same_set": {
+    "acc": 0.71,
+    "f1": 0.6896592296592295
+  },
+  "eval_size": 100,
+  "classes": 20
+}

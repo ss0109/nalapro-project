@@ -1,0 +1,47 @@
+# --- secrets ---
+.env
+*.env
+!.env.example
+
+# --- data & heavy artifacts (regenerated; not committed) ---
+data/
+*.pkl
+*.zip
+*.gguf
+models/
+checkpoints/
+outputs/
+mlm_*/
+*_finetuned/
+*.pt
+*.bin
+*.safetensors
+
+# --- Weights & Biases / HF caches ---
+wandb/
+.cache/
+huggingface/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- LaTeX build artifacts ---
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz

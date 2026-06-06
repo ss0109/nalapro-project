@@ -1,0 +1,54 @@
+{
+  "model": "bert-base-uncased",
+  "max_len": 128,
+  "batch_size": 32,
+  "epochs": 3,
+  "lr": 2e-05,
+  "fp16": true,
+  "history": {
+    "train_loss": [
+      2.1036440053703642,
+      1.0338938981761754,
+      0.7813007859600749
+    ],
+    "val_acc": [
+      0.6669611307420494,
+      0.7252650176678446,
+      0.7464664310954063
+    ],
+    "val_f1": [
+      0.6311137511416318,
+      0.7024932808044896,
+      0.7234947041783439
+    ],
+    "epoch_time": [
+      40.044344902038574,
+      39.35402727127075,
+      39.49351763725281
+    ]
+  },
+  "test_acc": 0.6897238449283059,
+  "test_f1_macro": 0.6654293146736892,
+  "target_names": [
+    "alt.atheism",
+    "comp.graphics",
+    "comp.os.ms-windows.misc",
+    "comp.sys.ibm.pc.hardware",
+    "comp.sys.mac.hardware",
+    "comp.windows.x",
+    "misc.forsale",
+    "rec.autos",
+    "rec.motorcycles",
+    "rec.sport.baseball",
+    "rec.sport.hockey",
+    "sci.crypt",
+    "sci.electronics",
+    "sci.med",
+    "sci.space",
+    "soc.religion.christian",
+    "talk.politics.guns",
+    "talk.politics.mideast",
+    "talk.politics.misc",
+    "talk.religion.misc"
+  ]
+}
