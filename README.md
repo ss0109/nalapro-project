@@ -143,7 +143,7 @@ checkpoints are intentionally **not** committed (they are listed in
 
 The compiled report PDF and your presentation go in [`docs/`](docs/). The LaTeX
 source of the report (IEEE two-column, `IEEEtran`) is in
-[`docs/report.pdf/`](docs/report.pdf/) and compiles with pdfLaTeX on Overleaf.
+[`docs/Sparsh Sopory NALAPRO Report.pdf/`](docs/Sparsh Sopory NALAPRO Report.pdf/) and compiles with pdfLaTeX on Overleaf.
 
 ## Tech stack
 
